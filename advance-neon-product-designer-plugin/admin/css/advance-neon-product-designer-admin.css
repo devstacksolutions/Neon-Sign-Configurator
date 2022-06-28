@@ -1,0 +1,205 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ /**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+.anpd_fornt_wrapper input{
+  width: 100%;
+}
+.anpd_fornt_wrapper h4{
+  line-height: 25px;
+  font-size: 19px;
+  margin: 1.33em 0;
+  background: #333;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+.anpd_fornt_wrapper{
+    padding: 30px 30px;
+    border: 1px solid #dcdcde;
+    margin-bottom: 20px;
+    background: #efefef;
+}
+.anpd_fornt_wrapper:last-child{
+  margin-bottom: 0px;
+}
+ .anpd-img{
+    width: 200px;
+    margin: 0 auto;
+ }
+ .anpd-locations-table td{
+  text-align: center;
+ }
+ .anpd-img img{
+      max-width: 100px;
+    max-height: 80px;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 5px;
+ }
+
+ .font_style_table {
+	width: 100%;
+	border: 1px solid #DFD8D8;
+	margin-top: 10px;
+	border-spacing: 0;
+}
+.font_style_table thead {
+	border-bottom: 1px solid #DFD8D8;
+}
+ .font_style_table th {
+	width: 33%;
+	padding: 8px 0px;
+	border-bottom: 1px solid #DFD8D8;
+	border-right: 1px solid #DFD8D8;
+}
+#toplevel_page_anpd-manage-dashboard .wp-menu-image img{
+	width: 25px;
+	height: auto;
+}
+
+#anpd-texts-options table tbody tr{
+	width: 50%;
+	display: inline-block;
+}
+.select2-selection{
+   min-width: 200px;
+}
+.pattern_option{
+   min-width: 200px;
+}
+#bouton{
+   background-color: green;
+   border-radius: 5px;
+   padding: 10px 20px;
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   margin-top: 5px;
+   font-size: 15px;
+}
+
+/*UI STYLES START*/
+.remove-rf-row{
+   border-radius: 50%;
+   padding: 3px;
+   opacity: 1;
+   border: silver 1px solid;
+   background-color: white!important;
+}
+.remove-rf-row {
+    background: url(../images/sprite.png) -66px -116px no-repeat #fff;
+    display: block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+}
+.remove-rf-row:hover {
+    background: url(../images/sprite.png) -66px -166px no-repeat #fff;
+    color:red !important;
+}
+.block-form .label {
+    background-color: #F3F5FF;
+    width: 25%;
+    font-weight: bold;
+    color: #000;
+}
+.block-form .vc-desc, .vc-wrap > label {
+  font-weight: normal;
+  line-height: 16px;
+  color: #899194;
+  font-size: 12px;
+  color: #000;
+}
+table.widefat,table.repeatable-fields-table{
+  table-layout: fixed;
+}
+.block-form td textarea{
+  max-width: 100%;
+  width: 100%;
+}
+
+/*UI STYLES END */
+
+.meta-box-sortables input {
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.media-preview img {
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.anpdw-disabed-options{
+ display: none !important;
+}
+
+.anpd-cart-item-data-wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.anpd-cart-item-data-container{
+  max-width: 300px;
+  margin-bottom: 20px;
+  border: 1px solid #e8e8e8;
+}
+.anpd-cart-item-data-wrap:nth-child(even){
+  background-color:#e8e8e8;
+}
+.cart-item-data-color{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.anpd-cartitem-img{
+  height: auto;
+  width: 100px;
+  max-width: 100px
+}
+.anpd-table th{
+  padding: 10px 5px;
+  background: #1d23272b;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #b9bbbd;
+  text-transform: uppercase;
+}
+.anpd-table-size td.dark_font_size_label{
+    background: #333333;
+    color: #fff;
+    padding: 0px 15px;
+}
+.anpd-table-size th{
+    padding: 4px 31px;
+    background: #333333;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #333333;
+    text-transform: uppercase;
+    color: #fff;
+}
+.anpd-table tbody:before,.anpd-table-size tbody:before{
+  content:"@";
+  display:block;
+  line-height:10px;
+  text-indent:-99999px;
+}
+.button.remove-row{
+  width: 100%;
+  max-width: 165px;
+}
+.wc_multi_upload_image_button{
+  color: #fff!important;
+  background: #2271b1!important;
+}

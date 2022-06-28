@@ -1,0 +1,575 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.anpd_price{
+    font-size: 30px;
+    font-weight: 500;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin: 0px;
+    line-height: 30px;
+    color: #000;
+}
+textarea#anpd_text {
+  max-width: 100%; 
+  max-height: 100%;
+  width: 100%;
+  min-height: 103px;
+  font-size: 25px;
+}
+#anpd_text_editor{
+  text-align: center;
+  font-size: 80px;
+  cursor: move;
+}
+ .anpd-container{
+ 	width: 100%;
+ 	max-width: 100%!important;
+ }
+ .anpd-d-flex {
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.anpd-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.anpd-col-1, .anpd-col-2, .anpd-col-3, .anpd-col-4, .anpd-col-5, .anpd-col-6, .anpd-col-7, .anpd-col-8, .anpd-col-9, .anpd-col-10, .anpd-col-11, .anpd-col-12, .anpd-col,
+.anpd-col-auto, .anpd-col-sm-1, .anpd-col-sm-2, .anpd-col-sm-3, .anpd-col-sm-4, .anpd-col-sm-5, .anpd-col-sm-6, .anpd-col-sm-7, .anpd-col-sm-8, .anpd-col-sm-9, .anpd-col-sm-10, .anpd-col-sm-11, .anpd-col-sm-12, .anpd-col-sm,
+.anpd-col-sm-auto, .anpd-col-md-1, .anpd-col-md-2, .anpd-col-md-3, .anpd-col-md-4, .anpd-col-md-5, .anpd-col-md-6, .anpd-col-md-7, .anpd-col-md-8, .anpd-col-md-9, .anpd-col-md-10, .anpd-col-md-11, .anpd-col-md-12, .anpd-col-md,
+.anpd-col-md-auto, .anpd-col-lg-1, .anpd-col-lg-2, .anpd-col-lg-3, .anpd-col-lg-4, .anpd-col-lg-5, .anpd-col-lg-6, .anpd-col-lg-7, .anpd-col-lg-8, .anpd-col-lg-9, .anpd-col-lg-10, .anpd-col-lg-11, .anpd-col-lg-12, .anpd-col-lg,
+.anpd-col-lg-auto, .anpd-col-xl-1, .anpd-col-xl-2, .anpd-col-xl-3, .anpd-col-xl-4, .anpd-col-xl-5, .anpd-col-xl-6, .anpd-col-xl-7, .anpd-col-xl-8, .anpd-col-xl-9, .anpd-col-xl-10, .anpd-col-xl-11, .anpd-col-xl-12, .anpd-col-xl,
+.anpd-col-xl-auto {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+.anpd-col {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+.anpd-col-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+@media(min-width:768px){
+	.anpd-col-1 {
+	  -ms-flex: 0 0 8.333333%;
+	  flex: 0 0 8.333333%;
+	  max-width: 8.333333%;
+	}
+
+	.anpd-col-2 {
+	  -ms-flex: 0 0 16.666667%;
+	  flex: 0 0 16.666667%;
+	  max-width: 16.666667%;
+	}
+
+	.anpd-col-3 {
+	  -ms-flex: 0 0 25%;
+	  flex: 0 0 25%;
+	  max-width: 25%;
+	}
+
+	.anpd-col-4 {
+	  -ms-flex: 0 0 33.333333%;
+	  flex: 0 0 33.333333%;
+	  max-width: 33.333333%;
+	}
+
+	.anpd-col-5 {
+	  -ms-flex: 0 0 41.666667%;
+	  flex: 0 0 41.666667%;
+	  max-width: 41.666667%;
+	}
+
+	.anpd-col-6 {
+	  -ms-flex: 0 0 50%;
+	  flex: 0 0 50%;
+	  max-width: 50%;
+	}
+
+	.anpd-col-7 {
+	  -ms-flex: 0 0 58.333333%;
+	  flex: 0 0 58.333333%;
+	  max-width: 58.333333%;
+	}
+
+	.anpd-col-8 {
+	  -ms-flex: 0 0 66.666667%;
+	  flex: 0 0 66.666667%;
+	  max-width: 66.666667%;
+	}
+
+	.anpd-col-9 {
+	  -ms-flex: 0 0 75%;
+	  flex: 0 0 75%;
+	  max-width: 75%;
+	}
+
+	.anpd-col-10 {
+	  -ms-flex: 0 0 83.333333%;
+	  flex: 0 0 83.333333%;
+	  max-width: 83.333333%;
+	}
+
+	.anpd-col-11 {
+	  -ms-flex: 0 0 91.666667%;
+	  flex: 0 0 91.666667%;
+	  max-width: 91.666667%;
+	}
+
+	.anpd-col-12 {
+	  -ms-flex: 0 0 100%;
+	  flex: 0 0 100%;
+	  max-width: 100%;
+	}
+}
+
+.anpd-form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.col-anpd-options img{
+	max-width: 100%;
+}
+.anpd-option-card .anpd-col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+/*form css*/
+.anpd-col-options .anpd-height-fixed{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+/* width */
+.anpd-height-fixed::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+.anpd-height-fixed::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 0px;
+}
+ 
+/* Handle */
+.anpd-height-fixed::-webkit-scrollbar-thumb {
+  background: #2196F3; 
+  border-radius: 0px;
+}
+
+/* Handle on hover */
+.anpd-height-fixed::-webkit-scrollbar-thumb:hover {
+  background: #2196F3; 
+}
+.anpd-col-options form{
+	border: 1px solid #2196f3;
+    border-radius: 5px;
+    overflow: hidden;
+    border-right-color: transparent;
+}
+.woocommerce input[name=submit].anpd-product-submit{
+	display: inline-block;
+    text-align: center;
+    word-break: break-word;
+    background-color: #2196F3!important;
+    color: #fff!important;
+    border: 1px solid #2196F3!important;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    width: 100%;
+    font-size: 30px;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 0px;
+}
+/*Location optins tab css*/
+.anpd-container-checkmark {
+  	display: inline-block;
+	position: relative;
+    padding-left: 0px;
+  	margin-bottom: 12px;
+  	cursor: pointer;
+  	-webkit-user-select: none;
+  	-moz-user-select: none;
+	-ms-user-select: none;
+  	user-select: none;
+    margin-right: 25px;
+    font-size: 12px;
+    text-align: center;
+}
+.anpd-container-checkmark input {
+  	opacity: 0;
+  	cursor: pointer;
+  	display: none;
+}
+.anpd-checkmark img{
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 2px;
+    width: 50px!important;
+    height: 50px!important;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 8px auto;
+}
+.anpd-container-checkmark:hover input ~ .anpd-checkmark img{
+  border-color: #2196F3;
+}
+.anpd-container-checkmark input:checked ~ .anpd-checkmark img {
+  	border-color: #2196F3;
+}
+.anpd-container-checkmark input:checked ~ .anpd-checkmark:after {
+  	display: block;
+}
+
+.anpd-align-center{
+	align-items: center!important;
+}
+.anpd-option-card{
+    text-align: center;
+    box-shadow: 0px 0px 15px 2px #0000001f;
+    padding: 15px 30px;
+}
+.woocommerce-page form .col-anpd-label label{
+	font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+}
+.anpd-editor{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+
+/*Color option tab Css*/
+a.anpd_example{
+  font-size: 10px;
+  color: #2196f3;
+  text-decoration: none;
+}
+.woocommerce-page form label.anpd-container-color{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  height: 29px;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+.anpd-container-color input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.anpd-color-checkmark {
+  position: absolute;
+  top: 15px;
+  left: 3px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  transition: .5s;
+  border: 2px solid transparent;
+}
+.anpd-container-color input:checked ~ .anpd-color-checkmark {
+  border: 2px solid #2196F3;
+}
+.anpd-container-color:hover input ~ .anpd-color-checkmark {
+  transform: scale(1.3);
+  border-color: transparent;
+}
+
+/*tube optin tab css*/
+.tube-option p{
+	margin: 0px;
+	font-size: 13px;
+}
+.tube-option{
+    padding: 8px 15px;
+    text-align: left;
+    display: block;
+    border: 1px solid #2196F3;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    max-width: 145px;
+}
+.tube-option input{
+	display: none;
+}
+.tube-option .option-one,.tube-option .option-two{
+    width: 40%;
+    height: 5px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #2196F3;
+}
+.anpd-highlight{
+	background-color: #2196F3;
+	color: #fff; 
+}
+.tube-option .option-two{
+	border-color: transparent;
+}
+/*alignment css*/
+.anpd-bar{
+	height: 1px;
+	background-color: #2196F3;
+	border-right: 5px;
+	margin-bottom: 5px;
+}
+.anpd-bar-80{
+	max-width: 80%;
+}
+.anpd-bar-60{
+	max-width: 60%;
+}
+.anpd-bar-40{
+	max-width: 40%;
+}
+.anpd-bar-20{
+	max-width: 20%;
+}
+.anpd-alignment-label input{
+	display: none;
+}
+.anpd-alignment-label{
+	display: inline-block;
+    width: 45px;
+    border: 1px solid #2196F3;
+    padding: 10px 10px 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.anpd-center-label .anpd-bar{
+	margin: 0px auto 5px;
+}
+.anpd-right-label .anpd-bar{
+	margin-left: auto;
+}
+.anpd-alignment-highlight{
+	background-color:#2196F3; 
+}
+.anpd-alignment-highlight .anpd-bar{
+	background-color:#fff; 
+}
+/*backing css*/
+.anpd-backing-label input{
+	display: none;
+}
+.anpd-backing-label{
+	border: 1px solid #2196F3;
+	display: block;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 12px;
+    text-transform: uppercase;
+    max-width: 140px;
+    padding: 10px 0px;
+}
+.anpd-backing-highlight{
+	background-color: #2196F3;
+	color: #fff;
+}
+/*size css*/
+.anpd-size-label input{
+	display: none;
+}
+.anpd-size-label{
+	display: inline-block;
+	font-size: 10px;
+	border:1px solid #2196F3;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.anpd-size-highlight{
+	background-color: #2196F3;
+	color: #fff;
+}
+.anpd-option-card:last-child{
+	margin-bottom: 0px;
+}
+
+/*font css*/
+.anpd-font-label input{
+	display: none;
+}
+.anpd-font-label,.anpd-loc-label{
+	display: inline-block;
+	border:1px solid #2196F3;
+	padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 10px;
+}
+.anpd-font-highlight,.anpd-loc-highlight{
+	color: #fff;
+	background-color: #2196F3;
+}
+.andp-font-button{
+    color: #fff;
+    background-color: #2196F3;
+    border: 1px solid #2196F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+}
+
+.anpd-arrow {
+  	display: inline-block;
+	margin-left: 20px;
+}
+
+.anpd-arrow::before,
+.anpd-arrow::after {
+  position: relative;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 2px;
+  background: white;
+  transition: 0.3s ease-in-out;
+}
+
+.anpd-arrow::before {
+  transform: rotate(45deg);
+}
+
+.anpd-arrow::after {
+  left: 7px;
+  top: -1px;
+  transform: rotate(-45deg);
+}
+
+.andp-font-button.anpd-active .anpd-arrow::before {
+  transform: rotate(-45deg);
+}
+
+.andp-font-button.anpd-active .anpd-arrow::after {
+  transform: rotate(45deg);
+}
+
+
+.anpd-switch {
+  position: absolute;
+  display: inline-block;
+  width: 90px;
+  height: 36px;
+  top: 20px;
+  left: 20px;
+}
+.anpd-slider.anpd-round {
+  border-radius: 34px;
+}
+
+.anpd-slider.anpd-round:before {
+  border-radius: 50%;
+}
+
+.anpd-switch input {display:none;}
+
+.anpd-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 6px;
+}
+
+.anpd-slider:before {
+  position: absolute;
+  content: "";
+  height: 34px;
+  width: 32px;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  bottom: 1px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 6px;
+}
+
+.anpd-switch input:checked + .anpd-slider {
+  background-color: #2ab934;
+}
+
+.anpd-switch input:focus + .anpd-slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.anpd-switch input:checked + .anpd-slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(55px);
+}
+
+.anpd-slider:after {
+  content:'OFF';
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left: 50%;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+.anpd-switch input:checked + .anpd-slider:after {
+  content:'ON';
+}
+
